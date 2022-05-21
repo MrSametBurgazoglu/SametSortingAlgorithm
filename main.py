@@ -1,9 +1,9 @@
 def samet_sort(karisik_liste):
     son_degisiklik_yeri = len(karisik_liste) - 1
     bitis = False
+    a = 0
     while not bitis:
         j = 0
-        a = son_degisiklik_yeri
         bitis = True
         while j < son_degisiklik_yeri:
             if karisik_liste[j] < karisik_liste[j + 1]:
